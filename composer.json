@@ -1,0 +1,22 @@
+{
+  "name": "webtoken/ecommerce",
+  "version": "0.1",
+  "type": "pagekit-extension",
+  "title": "Pagekit E-commerce",
+  "description": "Pagekit E-Commerce Extension",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Pablo Drappo"
+      }
+  ],
+  "archive": {
+      "exclude": ["node_modules", "!/app"]
+  },
+  "extra": {
+      "icon": "icon.svg"
+  },
+  "require": {
+      "php": ">=7.1"
+  }
+}
